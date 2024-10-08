@@ -242,3 +242,36 @@
 .video-title {
     margin-bottom: 24px;
 }
+
+/*! footer styles */
+.footer {
+    background-color: var(--blue-light);
+}
+
+.footer-container {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+@media (min-width: 736px) {
+    .footer-container {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.67;
+    color: var(--orange);
+}
+
+.footer-logo {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
