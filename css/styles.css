@@ -110,7 +110,33 @@
 }
 
 /*!  */
-.longread {}
+.longread {
+    display: grid;
+    gap: 96px;
+}
+
+@media (min-width: 1440px) {
+    .longread {
+        grid-template-areas:
+            "B B S"
+            "B B S"
+            "B B V"
+            "B B .";
+        gap: 60px 24px;
+    }
+
+    .blog-list {
+        grid-area: B
+    }
+
+    .socials {
+        grid-area: S;
+    }
+
+    .video {
+        grid-area: V;
+    }
+}
 
 /*! blog styles*/
 
@@ -210,4 +236,9 @@
     padding: 8px;
     border: 1px solid var(--common-black);
     border-radius: 8px;
+}
+
+/*! video styles */
+.video-title {
+    margin-bottom: 24px;
 }
