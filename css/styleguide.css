@@ -18,6 +18,10 @@ body {
     color: var(--grey);
     background-color: var(--common-white);
     scroll-behavior: smooth;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0.5px;
 }
 
 h1,
@@ -35,7 +39,6 @@ img {
     max-width: 100%;
     width: 100%;
     height: auto;
-    border-radius: 30px;
 }
 
 button {
@@ -66,13 +69,13 @@ a {
     padding: 0 16px;
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
     .container {
         max-width: 734px;
     }
 }
 
-@media screen and (min-width: 1158px) {
+@media (min-width: 1440px) {
     .container {
         max-width: 1128px;
     }
