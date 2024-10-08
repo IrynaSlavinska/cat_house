@@ -155,7 +155,17 @@
     margin-bottom: 24px;
 }
 
-.socials-list {}
+.socials-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px 8px;
+}
+
+@media (min-width: 768px) {
+    .socials-list {
+        column-gap: 24px;
+    }
+}
 
 .socials-item:nth-child(1) .social-link {
     background-color: var(--navy);
@@ -189,6 +199,10 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.5px;
+    display: grid;
+    grid-template-columns: 32px 1fr;
+    justify-items: center;
+    align-items: center;
 }
 
 .social-icon {
@@ -197,5 +211,3 @@
     border: 1px solid var(--common-black);
     border-radius: 8px;
 }
-
-.social-subscripers {}
