@@ -63,10 +63,10 @@ a {
 .container {
     width: 100%;
     margin: 0 auto;
-    padding: 0 16px 96px 16px;
+    padding: 0 16px;
 }
 
-@media screen and (min-width: 736px) {
+@media screen and (min-width: 768px) {
     .container {
         max-width: 734px;
     }
@@ -75,6 +75,5 @@ a {
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1128px;
-        padding-bottom: 80px;
     }
 }
