@@ -1,0 +1,66 @@
+:root {
+    --common-white: #fff;
+    --common-black: #2f2f37;
+    --orange: #f07f2e;
+    --grey: #2c2c2c;
+    --blue-light: #ecf6ff;
+    --navy: #d8def8;
+    --scarlet: #fae8ea;
+    --yellow: #fffddc;
+    --pink: #ffe8f1;
+    --turquoise: #e9f9f8;
+    --lilac: #f2eef8;
+    --common-font: Montserrat, Helvetica, sans-serif;
+}
+
+body {
+    font-family: var(--common-font);
+    color: var(--grey);
+    background-color: var(--common-white);
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+    padding: 0;
+    background-color: transparent;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+    font-style: normal;
+    display: block;
+}
+
+.container {
+    max-width: 1128px;
+    margin: auto;
+    padding: 0 16px;
+}
