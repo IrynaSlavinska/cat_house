@@ -1,0 +1,31 @@
+@import "./styleguide.css";
+
+/*! header styles */
+.header-container {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+@media screen and (min-width: 736px) {
+    .header-container {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.67;
+    letter-spacing: 0.5px;
+    color: var(--orange);
+}
+
+.header-logo {
+    display: block;
+    width: 22px;
+    height: 22px;
+}
